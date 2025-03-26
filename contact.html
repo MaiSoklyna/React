@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshVeg - Contact Us</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+      defer
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen bg-[#FAFAFA] font-['Open Sans']">
+    <nav class="w-full shadow-[0px_4px_6px_0px_rgba(0,0,0,0.05)] bg-gray-600">
+      <div
+        class="max-w-[1200px] mx-auto py-4 px-6 flex justify-between items-center"
+      >
+        <h1
+          class="text-[24px] font-['Montserrat'] font-semibold text-[#FFFFFF]"
+        >
+          FreshVeg
+        </h1>
+        <nav class="flex gap-6 text-white">
+          <a href="index.html" class="hover:text-[#5AD250]">Home</a>
+          <a href="products.html" class="hover:text-[#5AD250]">Products</a>
+          <a href="about.html" class="hover:text-[#5AD250]">About</a>
+          <a href="contact.html" class="hover:text-[#5AD250] font-semibold"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </nav>
+
+    <main class="max-w-[1200px] mx-auto py-16 px-6">
+      <section class="text-center mb-16">
+        <h2
+          class="text-[48px] font-['Montserrat'] font-semibold text-[#2A2A2A] mb-6"
+        >
+          Contact Us
+        </h2>
+        <p class="text-[20px] text-[#4A4A4A] max-w-[800px] mx-auto">
+          Have questions about our products or services? We'd love to hear from
+          you! Our team is ready to assist you with any inquiries.
+        </p>
+      </section>
+
+      <section class="grid grid-cols-2 gap-12 mb-24 max-md:grid-cols-[1fr]">
+        <div>
+          <h3
+            class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] mb-6"
+          >
+            Get In Touch
+          </h3>
+          <form class="space-y-6">
+            <div>
+              <label for="name" class="block text-[#4A4A4A] mb-2">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#5AD250]"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-[#4A4A4A] mb-2">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#5AD250]"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div>
+              <label for="subject" class="block text-[#4A4A4A] mb-2"
+                >Subject</label
+              >
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#5AD250]"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div>
+              <label for="message" class="block text-[#4A4A4A] mb-2"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#5AD250]"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-[#5AD250] text-white px-8 py-4 rounded-lg text-[18px] hover:bg-[#4bb943]"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+        <div>
+          <h3
+            class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] mb-6"
+          >
+            Our Information
+          </h3>
+          <div class="space-y-8">
+            <div class="flex items-start gap-4">
+              <div class="p-3 bg-[#5AD250] rounded-full">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-[20px] font-bold mb-2">Address</h4>
+                <p class="text-[#4A4A4A]">123 Farm Road</p>
+                <p class="text-[#4A4A4A]">Vegetable City, VC 12345</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="p-3 bg-[#5AD250] rounded-full">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-[20px] font-bold mb-2">Phone</h4>
+                <p class="text-[#4A4A4A]">(555) 123-4567</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="p-3 bg-[#5AD250] rounded-full">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-[20px] font-bold mb-2">Email</h4>
+                <p class="text-[#4A4A4A]">info@freshveg.com</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="p-3 bg-[#5AD250] rounded-full">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  ></path>
+                  <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-[20px] font-bold mb-2">Business Hours</h4>
+                <p class="text-[#4A4A4A]">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                <p class="text-[#4A4A4A]">Saturday: 9:00 AM - 4:00 PM</p>
+                <p class="text-[#4A4A4A]">Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-24">
+        <h3
+          class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] text-center mb-12"
+        >
+          Find Us
+        </h3>
+        <div class="h-96 w-full bg-gray-200 rounded-lg overflow-hidden">
+          <!-- Placeholder for map -->
+          <div
+            class="h-full w-full flex items-center justify-center bg-gray-300"
+          >
+            <p class="text-gray-600 text-lg">Interactive Map Coming Soon</p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="text-center p-12 rounded-[16px] bg-rose-200 bg-opacity-30"
+      >
+        <h3
+          class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] mb-6"
+        >
+          Connect With Us
+        </h3>
+        <p class="text-[18px] text-[#4A4A4A] mb-8 max-w-[600px] mx-auto">
+          Follow us on social media to stay updated with our latest products,
+          farming practices, and community events.
+        </p>
+        <div class="flex gap-4 justify-center">
+          <a
+            href="#"
+            class="w-[48px] h-[48px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="w-[48px] h-[48px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="w-[48px] h-[48px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="px-0 pt-16 pb-8 text-white bg-gray-600">
+      <div class="max-w-[1200px] mx-auto">
+        <div
+          class="grid gap-8 mb-12 grid-cols-[repeat(4,1fr)] max-md:grid-cols-[repeat(2,1fr)] max-sm:grid-cols-[repeat(1,1fr)]"
+        >
+          <div>
+            <h4 class="text-[24px] font-italic mb-[24px]">FreshVeg</h4>
+            <p class="text-[14px] leading-[1.6] opacity-80">
+              Your trusted source for fresh, organic vegetables delivered
+              straight from our farms to your doorstep.
+            </p>
+          </div>
+          <div>
+            <h5 class="text-[18px] font-bold mb-[16px]">Quick Links</h5>
+            <ul class="space-y-[12px]">
+              <li>
+                <a href="index.html" class="text-[14px] hover:text-[#5AD250]"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="products.html" class="text-[14px] hover:text-[#5AD250]"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="text-[14px] hover:text-[#5AD250]"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="contact.html" class="text-[14px] hover:text-[#5AD250]"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-[18px] font-bold mb-[16px]">Contact Us</h5>
+            <address class="space-y-[12px] not-italic">
+              <p class="text-[14px]">123 Farm Road</p>
+              <p class="text-[14px]">Vegetable City, VC 12345</p>
+              <p class="text-[14px]">Phone: (555) 123-4567</p>
+              <p class="text-[14px]">Email: info@freshveg.com</p>
+            </address>
+          </div>
+          <div>
+            <h5 class="text-[18px] font-bold mb-[16px]">Follow Us</h5>
+            <div class="flex gap-[16px]">
+              <a
+                href="#"
+                class="w-[32px] h-[32px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-[32px] h-[32px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-[32px] h-[32px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-8 text-center border-t border-solid border-t-white border-t-opacity-10"
+        >
+          <p class="text-[14px] opacity-80">
+            © 2024 FreshVeg. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

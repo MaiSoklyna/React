@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshVeg - Organic Produce</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+      defer
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen bg-[#FAFAFA] font-['Open Sans']">
+    <nav class="w-full shadow-[0px_4px_6px_0px_rgba(0,0,0,0.05)] bg-gray-600">
+      <div
+        class="max-w-[1200px] mx-auto py-4 px-6 flex justify-between items-center"
+      >
+        <h1
+          class="text-[24px] font-['Montserrat'] font-semibold text-[#FFFFFF]"
+        >
+          FreshVeg
+        </h1>
+       <nav class="flex gap-6 text-white">
+  <a href="index.html" class="hover:text-[#5AD250]">Home</a>
+  <a href="products.html" class="hover:text-[#5AD250]">Products</a>
+  <a href="about.html" class="hover:text-[#5AD250]">About</a>
+  <a href="contact.html" class="hover:text-[#5AD250]">Contact</a>
+</nav>
+
+      </div>
+    </nav>
+
+    <main class="max-w-[1200px] mx-auto py-16 px-6">
+       <div class="flex items-center justify-between flex-wrap">
+            <div class="max-w-lg">
+                <h2 class="text-4xl font-bold text-gray-800 leading-tight">Fresh Vegetables From Our Farm</h2>
+                <p class="text-lg text-gray-600 mt-4">Get fresh, organic vegetables delivered straight from our farm to your doorstep.</p>
+                <button class="mt-6 bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">Shop Now</button>
+            </div>
+            <img src="https://cdn.builder.io/api/v1/image/assets%2F53a281082fac446991939034ce3d682b%2F61a41bbfddb44ef393ec3b488a0dab73" 
+                 alt="Fresh organic vegetables" class="w-96 rounded-xl shadow-md">
+        </div>
+
+        <!-- Featured Products -->
+        <section class="mt-16">
+          <h3 class="text-3xl font-semibold text-gray-800 text-center">Featured Products</h3>
+          <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-[#3730A3] bg-opacity-30 rounded-xl p-4 shadow-lg">
+              <img src="/projectmini/img/carrot.png" 
+             alt="Fresh Carrots" class="rounded-lg w-full h-64 object-cover">
+              <h4 class="text-lg font-semibold mt-4 text-gray-800">Fresh Carrots</h4>
+              <p class="text-green-500 font-bold text-lg">$1.99 <span class="text-gray-400 line-through text-sm">$2.49</span></p>
+              <button class="w-full mt-4 bg-green-500 text-white py-2 rounded-lg hover:bg-green-600">Add to Cart</button>
+            </div>
+            <div class="bg-[#3730A3] bg-opacity-30 rounded-xl p-4 shadow-lg">
+              <img src="/projectmini/Apple.png" 
+             alt="Fresh Apples" class="rounded-lg w-full h-64 object-cover">
+              <h4 class="text-lg font-semibold mt-4 text-gray-800">Fresh Apples</h4>
+              <p class="text-green-500 font-bold text-lg">$3.49 <span class="text-gray-400 line-through text-sm">$4.49</span></p>
+              <button class="w-full mt-4 bg-green-500 text-white py-2 rounded-lg hover:bg-green-600">Add to Cart</button>
+            </div>
+            <div class="bg-[#3730A3] bg-opacity-30 rounded-xl p-4 shadow-lg">
+              <img src="/projectmini/img/Procoly.png" 
+             alt="Fresh Broccoli" class="rounded-lg w-full h-64 object-cover">
+              <h4 class="text-lg font-semibold mt-4 text-gray-800">Fresh Broccoli</h4>
+              <p class="text-green-500 font-bold text-lg">$2.49 <span class="text-gray-400 line-through text-sm">$3.29</span></p>
+              <button class="w-full mt-4 bg-green-500 text-white py-2 rounded-lg hover:bg-green-600">Add to Cart</button>
+            </div>
+            <div class="bg-[#3730A3] bg-opacity-30 rounded-xl p-4 shadow-lg">
+              <img src="/projectmini/img/pngegg (11).png" 
+             alt="Fresh Oranges" class="rounded-lg w-full h-64 object-cover">
+              <h4 class="text-lg font-semibold mt-4 text-gray-800">Green Paper</h4>
+              <p class="text-green-500 font-bold text-lg">$2.99 <span class="text-gray-400 line-through text-sm">$3.99</span></p>
+              <button class="w-full mt-4 bg-green-500 text-white py-2 rounded-lg hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </section>
+      <section class="text-center mb-24">
+        <h2
+          class="text-[48px] font-['Montserrat'] font-semibold text-[#2A2A2A] mb-6"
+        >
+          Our Mission
+        </h2>
+        <p class="text-[20px] text-[#4A4A4A] max-w-[800px] mx-auto">
+          Bringing fresh, organic produce directly from our sustainable farms to
+          your table, while nurturing the environment and supporting local
+          communities.
+        </p>
+      </section>
+
+      <section class="grid grid-cols-2 gap-12 mb-24 max-md:grid-cols-[1fr]">
+        <div>
+          <h3
+            class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] mb-6"
+          >
+            Our Story
+          </h3>
+          <p class="text-[16px] text-[#4A4A4A] mb-4">
+            Our journey began in 2010 on a small family plot with a passionate
+            vision: to revolutionize how people access fresh, organic
+            vegetables. Starting with just a few acres and a commitment to
+            sustainable farming, we've grown into a thriving community of
+            farmers dedicated to nurturing both the land and the families we
+            serve. Each vegetable we grow tells a story of careful cultivation,
+            traditional wisdom, and modern organic practices.
+          </p>
+          <p class="text-[16px] text-[#4A4A4A]">
+            What started as a small family farm has grown into a network of
+            sustainable farms, all committed to providing the highest quality
+            organic produce while protecting our environment.
+          </p>
+        </div>
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F53a281082fac446991939034ce3d682b%2Fcb767d1cd0f94e139fc7dae0416d7503"
+          alt="FreshVeg farm aerial view"
+          class="object-cover overflow-hidden w-full rounded-2xl aspect-[1.5]"
+        />
+      </section>
+
+      <section class="mb-24">
+        <h3
+          class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] text-center mb-12"
+        >
+          Our Values
+        </h3>
+        <div
+          class="grid grid-cols-3 gap-8 max-md:grid-cols-[repeat(2,1fr)] max-sm:grid-cols-[1fr]"
+        >
+          <article class="text-center p-6 rounded-[16px] bg-amber-200">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="#5AD250">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <h4 class="text-[20px] font-bold mt-4 mb-2">Sustainability</h4>
+            <p class="text-[#4A4A4A]">
+              Committed to environmental stewardship and sustainable farming
+              practices.
+            </p>
+          </article>
+
+          <article
+            class="text-center p-6 rounded-[16px] bg-indigo-800 bg-opacity-30"
+          >
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="#5AD250">
+              <path
+                d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+              ></path>
+            </svg>
+            <h4 class="text-[20px] font-bold mt-4 mb-2">Community</h4>
+            <p class="text-[#4A4A4A]">
+              Supporting local communities and promoting healthy living.
+            </p>
+          </article>
+
+          <article
+            class="text-center p-6 rounded-[16px] bg-red-600 bg-opacity-30"
+          >
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="#5AD250">
+              <path
+                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-8 14H7v-4h4v4zm0-6H7V7h4v4zm6 6h-4v-4h4v4zm0-6h-4V7h4v4z"
+              ></path>
+            </svg>
+            <h4 class="text-[20px] font-bold mt-4 mb-2">Quality</h4>
+            <p class="text-[#4A4A4A]">
+              Delivering the highest quality organic produce to our customers.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mb-24">
+        <h3
+          class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] text-center mb-12"
+        >
+          Our Team
+        </h3>
+        <div
+          class="grid grid-cols-3 gap-8 max-md:grid-cols-[repeat(2,1fr)] max-sm:grid-cols-[1fr]"
+          x-data="{ team }"
+        >
+          <template x-for="member in team" :key="member.name">
+            <article
+              class="text-center p-6 rounded-[16px] bg-rose-200 bg-opacity-30"
+            >
+              <img
+                :src="member.image"
+                :alt="member.name"
+                class="object-cover overflow-hidden mx-auto mt-0 mb-4 aspect-square h-[200px] rounded-[100%] w-[200px]"
+              />
+              <h4 class="text-[20px] font-bold mb-2" x-text="member.name"></h4>
+              <p class="text-[#5AD250] mb-4" x-text="member.role"></p>
+              <p class="text-[#4A4A4A]" x-text="member.bio"></p>
+            </article>
+          </template>
+        </div>
+      </section>
+
+      <section class="mb-24">
+        <h3
+          class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] text-center mb-12"
+        >
+          Our Farming Practices
+        </h3>
+        <div class="grid grid-cols-2 gap-12 max-md:grid-cols-[1fr]">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F53a281082fac446991939034ce3d682b%2F679da7a4ed0e434082e2fbba7ab5d3a7"
+            alt="Sustainable farming practices in action"
+            class="object-cover overflow-hidden w-full rounded-2xl aspect-[1.78]"
+          />
+          <div>
+            <h4 class="text-[24px] font-semibold mb-6">
+              Sustainable & Organic
+            </h4>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#5AD250">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  ></path>
+                </svg>
+                <p class="text-[#4A4A4A]">100% organic farming methods</p>
+              </li>
+              <li class="flex items-start gap-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#5AD250">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  ></path>
+                </svg>
+                <p class="text-[#4A4A4A]">Natural pest control solutions</p>
+              </li>
+              <li class="flex items-start gap-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#5AD250">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  ></path>
+                </svg>
+                <p class="text-[#4A4A4A]">Water-efficient irrigation systems</p>
+              </li>
+              <li class="flex items-start gap-4">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#5AD250">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  ></path>
+                </svg>
+                <p class="text-[#4A4A4A]">Soil health management</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="text-center p-12 rounded-[16px] bg-rose-200 bg-opacity-30"
+      >
+        <h3
+          class="text-[32px] font-['Montserrat'] font-semibold text-[#2A2A2A] mb-6"
+        >
+          Join Our Journey
+        </h3>
+        <p class="text-[18px] text-[#4A4A4A] mb-8 max-w-[600px] mx-auto">
+          Be part of our mission to bring fresh, organic vegetables to every
+          table while protecting our environment.
+        </p>
+        <button
+          class="bg-[#5AD250] text-white px-8 py-4 rounded-lg text-[18px] hover:bg-[#4bb943]"
+        >
+          Shop Our Products
+        </button>
+      </section>
+    </main>
+
+   
+      
+       
+
+    <div
+      x-data="{ showNotification: false }"
+      x-show="showNotification"
+      class="fixed bottom-4 right-4 bg-[#5AD250] text-[#FFF] px-[16px] py-[8px] rounded-[4px]"
+    >
+      Item added to cart!
+    </div>
+    <footer class="px-0 pt-16 pb-8 text-white bg-gray-600">
+      <div class="max-w-[1200px] mx-auto">
+        <div
+          class="grid gap-8 mb-12 grid-cols-[repeat(4,1fr)] max-md:grid-cols-[repeat(2,1fr)] max-sm:grid-cols-[repeat(1,1fr)]"
+        >
+          <div>
+            <h4 class="text-[24px] font-italic mb-[24px]">FreshVeg</h4>
+            <p class="text-[14px] leading-[1.6] opacity-80">
+              Your trusted source for fresh, organic vegetables delivered
+              straight from our farms to your doorstep.
+            </p>
+          </div>
+          <div>
+            <h5 class="text-[18px] font-bold mb-[16px]">Quick Links</h5>
+            <ul class="space-y-[12px]">
+              <li>
+                <a href="#" class="text-[14px] hover:text-[#5AD250]">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-[14px] hover:text-[#5AD250]"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-[14px] hover:text-[#5AD250]"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-[14px] hover:text-[#5AD250]">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-[18px] font-bold mb-[16px]">Contact Us</h5>
+            <address class="space-y-[12px] not-italic">
+              <p class="text-[14px]">123 Farm Road</p>
+              <p class="text-[14px]">Vegetable City, VC 12345</p>
+              <p class="text-[14px]">Phone: (555) 123-4567</p>
+              <p class="text-[14px]">Email: info@freshveg.com</p>
+            </address>
+          </div>
+          <div>
+            <h5 class="text-[18px] font-bold mb-[16px]">Follow Us</h5>
+            <div class="flex gap-[16px]">
+              <a
+                href="#"
+                class="w-[32px] h-[32px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-[32px] h-[32px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-[32px] h-[32px] bg-[#5AD250] rounded-full flex items-center justify-center hover:bg-[#4bb943]"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-8 text-center border-t border-solid border-t-white border-t-opacity-10"
+        >
+          <p class="text-[14px] opacity-80">
+            © 2024 FreshVeg. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
